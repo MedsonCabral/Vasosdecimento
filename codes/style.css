@@ -4,6 +4,15 @@
   text-decoration: none;
 }
 
+.texto_apresentacao {
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 a {
   color: white;
 }
