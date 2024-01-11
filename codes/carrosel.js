@@ -33,3 +33,11 @@ function carousel() {
 }
 
 carousel()
+
+const zap = document.querySelector(".wps_js_msg")
+zap.addEventListener("click", function(e) {
+    e.preventDefault()
+    let msg = "Olá! Tenho interesse e queria mais informações. por favor."
+    let link = "https://wa.me/558897043513/?text=" + encodeURIComponent(msg);
+    window.open(link);
+})
