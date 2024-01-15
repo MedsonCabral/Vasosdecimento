@@ -61,13 +61,15 @@
     margin: 0 auto;
   }
   .titulo {
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 20px;
     font-family: "Poppins", sans-serif;
   }
 
   .subtitulo {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Montserrat", sans-serif;
+    font-weight: 600;
   }
 
   .conhecer {
@@ -363,6 +365,22 @@
   .total_clientes {
     font-size: 20px;
     font-family: "Fira Sans", sans-serif;
+  }
+
+  /* jardins */
+  ._textos_argumento {
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .jardins {
+    margin: 20px;
+  }
+  .vasos_video_foto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   /* CAIXINHAS */
   .kit_argumento {
@@ -1044,6 +1062,16 @@
     text-align: center;
   }
 
+  .jardin {
+    margin: 20px;
+  }
+
+  .vasos_video_foto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   /* CAIXINHAS */
   .kit_argumento {
     display: grid;
@@ -1394,6 +1422,7 @@
 
   .titulo {
     font-size: 35px;
+    text-align: start;
     font-family: "Poppins", sans-serif;
   }
 
@@ -1437,15 +1466,20 @@
 
   .quad {
     width: 30px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     justify-content: center;
   }
 
   .descricao {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-    flex-direction: row;
     margin: 120px;
+  }
+
+  .Sub_titulo_venda {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
   }
 
   .quadBranco,
@@ -1455,15 +1489,22 @@
     margin: 0 auto;
   }
 
+  .conteudo_kit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-bottom: 20px;
+  }
+
   .quadBranco {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 30px;
     width: 250px;
-    /* height: 80px; */
     margin: 0 auto;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-bottom: 20px;
     -webkit-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 38px -24px rgba(0, 0, 0, 0.75);
@@ -1477,8 +1518,8 @@
       rgba(145, 175, 146, 1) 50%
     );
     width: 250px;
-    /* height: 80px; */
     margin: 0 auto;
+    margin-bottom: 20px;
     border-radius: 20px;
     padding: 30px;
     color: white;
