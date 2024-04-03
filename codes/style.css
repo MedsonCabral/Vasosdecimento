@@ -39,7 +39,7 @@ img {
   width: 180px;
   display: flex;
   justify-content: start;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
@@ -69,7 +69,8 @@ h2 {
 .img {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 /* textos */
