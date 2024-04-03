@@ -1947,6 +1947,19 @@
     text-decoration: line-through;
   }
 
+  .kit_yamp {
+    color: #FFFFFF;
+    font-size: 35px;
+  }
+
+  .price_yamp {
+    color: #FFFFFF;
+  }
+
+  .doted_yamp {
+    font-size: 20px;
+  }
+
   .price,
   .mininu {
     color: #04394e;
@@ -1983,6 +1996,19 @@
     border-radius: 50px;
     color: #f4f4f2;
     margin: 0 auto;
+  }
+
+  .yamp {
+    background-color: #00A86B;
+    height: 300px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .bnt_yamp {
+    background-color:  #D4AF37;
+    width: 200px;
+    font-size: 20px;
   }
 
   /* CARROSEL */
