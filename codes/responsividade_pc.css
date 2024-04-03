@@ -380,6 +380,8 @@
   .vasos_video_foto {
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     flex-direction: column;
   }
   /* CAIXINHAS */
@@ -618,6 +620,9 @@
     font-weight: bolder;
     border-radius: 50px;
     color: #f4f4f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
   }
 
@@ -1845,17 +1850,23 @@
 
   .acompanhamento {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    margin: 0 auto;
   }
 
   .texto_acompanhamento {
     font-size: 30px;
     font-family: "Poppins", sans-serif;
     text-align: center;
+  }
+
+  .textos_grid {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .sub_acompanhamento {
@@ -1992,8 +2003,11 @@
   }
 
   .kit_yamp {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     color: #FFFFFF;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .price_yamp {
@@ -2001,7 +2015,7 @@
   }
 
   .doted_yamp {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .price,
@@ -2039,11 +2053,18 @@
     font-weight: bolder;
     border-radius: 50px;
     color: #f4f4f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
   }
 
   .yamp {
     background-color: #00A86B;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     height: 300px;
     padding: 10px;
     border-radius: 50px;
