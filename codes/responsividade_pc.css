@@ -521,6 +521,19 @@
     font-size: 22px;
   }
 
+  .yamp {
+    background-color: #00A86B;
+    height: 300px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+
+  .bnt_yamp {
+    background-color:  #D4AF37;
+    width: 200px;
+    font-size: 20px;
+  }
+
   .img_do_produto {
     width: 80px;
     display: flex;
@@ -606,6 +619,19 @@
     border-radius: 50px;
     color: #f4f4f2;
     margin: 0 auto;
+  }
+
+  .kit_yamp {
+    color: #FFFFFF;
+    font-size: 35px;
+  }
+
+  .price_yamp {
+    color: #FFFFFF;
+  }
+
+  .doted_yamp {
+    font-size: 20px;
   }
 
   /* CARRROSEL */
@@ -705,7 +731,7 @@
 
 /* topo */
 
-@media (min-width: 402px) {
+@media (max-width: 480px) {
   /* TOPO */
   .img_principal {
     display: grid;
@@ -1246,6 +1272,17 @@
     font-size: 22px;
   }
 
+  .yamp {
+    background-color: #00A86B;
+    height: 300px;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  
+
   .img_do_produto {
     width: 100px;
     display: flex;
@@ -1337,6 +1374,13 @@
     border-radius: 50px;
     color: #f4f4f2;
     margin: 0 auto;
+  }
+
+  .bnt_yamp {
+    background-color:  #D4AF37;
+    width: 200px;
+    color: #f4f4f2;
+    font-size: 20px;
   }
 
   /* CARRROSEL */

@@ -106,11 +106,16 @@ h2 {
 }
 
 .texto_titulo_argumento {
-  margin-top: 40px;
+  margin-top: 15px;
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bolder;
 }
 
 .texto_acompanhamento {
