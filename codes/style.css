@@ -4,6 +4,41 @@
   text-decoration: none;
 }
 
+.redes_sociais {
+  text-align: center;
+  background-color: #fad75d;
+  /* width: 60%; */
+  /* margin: 0 auto; */
+  /* margin-bottom: 20px; */
+  /* border-radius: 20px; */
+  padding: 15px;
+}
+
+.tituloRedes {
+  color: white;
+}
+.nome {
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.logoRedes {
+  width: 25px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  flex-direction: row; */
+}
+.redes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
 .texto_apresentacao {
   font-family: "Asap Condensed", sans-serif;
   font-size: 20px;
@@ -18,7 +53,8 @@ a {
 }
 
 body {
-  background-color: #f9f9f1;
+  /* background-color: #f9f9f1; */
+  background-color: #fffeff;
 }
 
 h4 {
@@ -39,7 +75,7 @@ img {
   width: 180px;
   display: flex;
   justify-content: start;
-  flex-direction: column;
+  flex-direction: row;
   margin-bottom: 20px;
 }
 
@@ -172,7 +208,7 @@ p {
   justify-content: center;
   text-align: center;
   font-weight: 800;
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: "Asap Condensed", sans-serif;
   margin-bottom: 20px;
   margin-top: 20px;
 }

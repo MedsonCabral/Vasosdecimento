@@ -531,14 +531,14 @@
   }
 
   .yamp {
-    background-color: #00A86B;
+    background-color: #00a86b;
     height: 300px;
     padding: 10px;
     border-radius: 50px;
   }
 
   .bnt_yamp {
-    background-color:  #D4AF37;
+    background-color: #d4af37;
     width: 200px;
     font-size: 20px;
   }
@@ -634,12 +634,12 @@
   }
 
   .kit_yamp {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 35px;
   }
 
   .price_yamp {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .doted_yamp {
@@ -668,8 +668,8 @@
 
   .img_carrousel {
     margin: 0 auto;
-    width: 320px;
-    height: 400px;
+    width: 25%;
+    height: 75%;
     margin-top: 20px;
     border-radius: 20px;
   }
@@ -701,7 +701,7 @@
     border-radius: 20px;
   }
 
-  /* VIDEOS DEPOIMENTO */ 
+  /* VIDEOS DEPOIMENTO */
 
   .depoimentos_em_texto {
     display: grid;
@@ -714,9 +714,9 @@
     margin: 0 auto;
     margin-bottom: 10px;
   }
-   /* ZAP */ 
+  /* ZAP */
 
-   .wps_js_msg {
+  .wps_js_msg {
     width: 45px;
     position: fixed;
     top: 95%;
@@ -728,7 +728,8 @@
     display: flex;
     justify-content: space-around;
   }
-  #ant, #dep {
+  #ant,
+  #dep {
     width: 70px;
     padding: 10px;
     border: none;
@@ -1288,15 +1289,13 @@
   }
 
   .yamp {
-    background-color: #00A86B;
+    background-color: #00a86b;
     height: 300px;
     padding: 10px;
     border-radius: 50px;
     margin-bottom: 20px;
     margin-top: 20px;
   }
-
-  
 
   .img_do_produto {
     width: 100px;
@@ -1392,7 +1391,7 @@
   }
 
   .bnt_yamp {
-    background-color:  #D4AF37;
+    background-color: #d4af37;
     width: 200px;
     color: #f4f4f2;
     font-size: 20px;
@@ -1420,8 +1419,8 @@
 
   .img_carrousel {
     margin: 0 auto;
-    width: 320px;
-    height: 400px;
+    width: 55%;
+    height: 75%;
     margin-top: 20px;
     border-radius: 20px;
   }
@@ -1453,7 +1452,7 @@
     border-radius: 20px;
   }
 
-  /* VIDEOS CLIENTES */ 
+  /* VIDEOS CLIENTES */
 
   .video_c_edit {
     display: flex;
@@ -1462,7 +1461,7 @@
     margin-bottom: 10px;
   }
 
-  /* ZAP */ 
+  /* ZAP */
 
   .wps_js_msg {
     width: 45px;
@@ -1476,7 +1475,8 @@
     display: flex;
     justify-content: space-around;
   }
-  #ant, #dep {
+  #ant,
+  #dep {
     width: 70px;
     padding: 10px;
     border: none;
@@ -1485,7 +1485,8 @@
     font-weight: bold;
     border-radius: 20px;
   }
-  #ant, #dep {
+  #ant,
+  #dep {
     width: 70px;
     padding: 10px;
     border: none;
@@ -1538,7 +1539,7 @@
     border-radius: 30px;
   }
 
-  .video_apresentacao{
+  .video_apresentacao {
     display: flex;
     justify-content: center;
     width: 98%;
@@ -1595,7 +1596,7 @@
     justify-content: center;
     text-align: center;
     font-weight: 800;
-    font-family: 'Asap Condensed', sans-serif;
+    font-family: "Asap Condensed", sans-serif;
     margin-bottom: 20px;
   }
 
@@ -1980,7 +1981,6 @@
     width: 100px;
   }
 
-
   /* PRODUTOS - TEXTOS */
 
   .img_white {
@@ -2020,12 +2020,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 30px;
   }
 
   .price_yamp {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .doted_yamp {
@@ -2074,7 +2074,7 @@
   }
 
   .yamp {
-    background-color: #00A86B;
+    background-color: #00a86b;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -2085,7 +2085,7 @@
   }
 
   .bnt_yamp {
-    background-color:  #D4AF37;
+    background-color: #d4af37;
     width: 200px;
     font-size: 20px;
   }
@@ -2106,8 +2106,8 @@
 
   .img_carrousel {
     margin: 0 auto;
-    width: 450px;
-    height: 400px;
+    width: 25%;
+    height: 75%;
     margin-top: 20px;
     border-radius: 20px;
   }
@@ -2151,7 +2151,7 @@
     margin-bottom: 10px;
   }
 
-  /* BOTÃO ZAP */ 
+  /* BOTÃO ZAP */
 
   .wps_js_msg {
     width: 60px;
@@ -2169,7 +2169,8 @@
     justify-content: space-around;
   }
 
-  #ant, #dep {
+  #ant,
+  #dep {
     width: 70px;
     padding: 10px;
     border: none;
